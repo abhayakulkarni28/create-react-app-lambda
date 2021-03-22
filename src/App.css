@@ -1,32 +1,603 @@
-.App {
+body {
+  margin-bottom: 7%;
+}
+.container {
+  padding: 20px;
+  /* margin: 0%;
+  width: 100%; */
+}
+
+.title {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.nav-item {
+  color: blue !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   color: white;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  align-self: center;
+  height: 7%;
 }
 
-.App-link {
-  color: #61dafb;
+/* #example1 {
+  border: 2px solid black;
+  padding: 25px;
+  background: url(mountain.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+} */
+#customer {
+  float: left;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#employee {
+  float:right;
 }
+
+#background {
+  background-image: url('./images/home_page1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+
+}
+
+#contact-table{
+  /* border: 1px solid black; */
+  width: 60%;
+  height: 40%;
+}
+
+#home_table {
+  margin: auto;
+  margin-top: 5%; 
+  margin-left: 30%;
+  width: 40%;
+  align-items: center;
+}
+
+.button_td {
+  margin-left: 70%;
+  padding-top: 2%;
+}
+
+.link {
+  width: 40%;
+  margin: auto;
+  align-items: center;
+}
+
+#emp_login{
+  
+/* margin: 0 auto; */
+align-content: center;
+margin-top: 5%;
+margin-right: 20%;
+}
+
+#insurance-info-img {
+  float: inline-end;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+.card-container.card {
+  max-width: 350px !important;
+  padding: 40px 40px;
+}
+
+.card {
+  background-color: #f7f7f7;
+  padding: 20px 25px 30px;
+  margin: 0 auto 25px;
+  margin-top: 5%;
+  margin-right: 20%;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.profile-img-card {
+  width: 96px;
+  height: 96px;
+  margin: 0 auto 10px;
+  display: block;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.customer-profile-img-card {
+  width: 40px;
+  height: 40px;
+  margin: 0 auto 10px;
+  display: block;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+
+#cust_btn {
+  margin-top: 5%;
+  width: 100%;
+}
+
+#cust_portal_img {
+  height: 500px;
+  width: 700px;
+  margin-left: 10%;
+}
+
+#customer_title{
+  margin-left: 38%;
+  width: 30%;
+  color: blue;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-top: 2%;
+}
+
+#employee_title{
+  margin-left: 38%;
+  width: 30%;
+  color: blue;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-top: 2%;
+}
+
+#emp_portal_img {
+  height: 500px;
+  width: 700px;
+  margin-left: 10%;
+}
+
+#header_logo_img{
+  margin: 0 auto;
+}
+
+#grievance_register_title{
+  margin-left: 38%;
+  width: 30%;
+  color: blue;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-top: 2%;
+}
+
+#grievance_main {
+  margin-left: 15%;
+}
+
+#textarea {
+  resize: none;
+}
+
+#grievance_sub {
+  margin-left: 30%;
+}
+
+.about_us_container {
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 5%;
+}
+
+.know_your_insurance_img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.insurance_info_container {
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 2%;
+}
+
+#insurance_plan_container {
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 2%;
+}
+
+#health_plan_container {
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 2%;
+}
+
+.health_plan_ul {
+  list-style: square;
+}
+
+.insurance_plan_ul {
+  list-style: square;
+}
+
+#admin_profile_div{
+  width: 30%;
+  margin-right: 2%;
+}
+
+#admin_cust_details_header{
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+#admin_cust_list_table{
+  width:80%; 
+  margin-left:10%; 
+  margin-right:20%;
+}
+
+#admin_agent_details_header{
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+#admin_agent_list_table{
+  width:80%; 
+  margin-left:10%; 
+  margin-right:20%;
+}
+
+#admin_manager_details_header{
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+#admin_manager_list_table{
+  width:80%; 
+  margin-left:10%; 
+  margin-right:20%;
+}
+
+#add_new_policy_title {
+  margin-left: 38%;
+  width: 30%;
+  color: blue;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-top: 2%;
+}
+
+#add_new_policy_main {
+  margin-left: 15%;
+}
+
+#add_new_policy_sub {
+  margin-left: 30%;
+}
+
+#add_new_manager_title {
+  margin-left: 38%;
+  width: 30%;
+  color: blue;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-top: 2%;
+}
+
+#add_new_manager_main{
+  margin-left: 10%;
+}
+
+#add_new_manager_div {
+  width: 96.5%;
+}
+
+#add_new_manager_sub {
+  margin-left: 30%;
+}
+
+#grievance_report_title {
+  margin-left: 38%;
+  width: 30%;
+  color: blue;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-top: 2%;
+}
+
+#grievance_report_table {
+  width:80%; 
+  margin-left:10%; 
+  margin-right:20%;
+}
+
+#grievance_settle_title {
+  margin-left: 38%;
+  width: 30%;
+  color: blue;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-top: 2%;
+}
+
+#grievance_settle_table {
+  width:80%; 
+  margin-left:10%; 
+  margin-right:20%;
+}
+
+.grievance_report_main {
+  margin-left: 5%;
+}
+
+#grievance_received_card {
+  margin-right: 37%;
+}
+
+#grievance_resolved_card {
+  margin-right: 37%;
+}
+
+#grievance_inprocess_card {
+  margin-right: 37%;
+}
+
+#claim_settle_title {
+  margin-left: 38%;
+  width: 30%;
+  color: blue;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-top: 2%;
+}
+
+#claim_settle_table {
+  width:80%; 
+  margin-left:10%; 
+  margin-right:20%;
+}
+
+#claim_report_title {
+  margin-left: 45%;
+  width: 30%;
+  color: blue;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-top: 2%;
+}
+
+.claim_report_main {
+  margin-left: 3%;
+}
+
+#add_new_customer_title {
+  margin-left: 45%;
+  width: 30%;
+  color: blue;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-top: 2%;
+}
+
+#add_new_customer_main {
+  margin-left: 13%;
+}
+
+#add_new_customer_sub {
+  margin-left: 30%;
+}
+
+#add_customer_policy_details_title {
+  margin-left: 36%;
+  width: 30%;
+  color: blue;
+  font-size: xx-large;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-top: 2%;
+}
+
+#add_customer_policy_details_main {
+  margin-left: 13%;
+}
+
+#add_customer_policy_details_sub {
+  margin-left: 30%;
+}
+
+#customer_policy_details_title {
+  margin-left: 36%;
+  width: 30%;
+  color: blue;
+  font-size: xx-large;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-top: 2%;
+}
+
+#customer_policy_details_table {
+  width:80%; 
+  margin-left:10%; 
+  margin-right:20%;
+}
+
+#show-cust-policy-details-btn {
+  margin-top: 2%;
+  margin-bottom: 4%;
+}
+
+#customer_policy_details_form {
+  margin-left: 40%;
+}
+
+#policy_reminder_title {
+  margin-left: 36%;
+  margin-bottom: 2%;
+  width: 30%;
+  color: blue;
+  font-size: xx-large;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-top: 2%;
+}
+
+#policy-reminder-btn {
+  margin-left: 40%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+#admin-change-password-title{
+  margin-left: 200%;
+  width: 100%; 
+  color: blue;
+  font-size: xx-large;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-top: 2%;
+  text-align: center;
+}
+
+#admin-change-password-main {
+  margin-left: 170%;
+  width: 150%
+}
+
+#update_password_btn {
+  width: fit-content;
+  margin-top: 5%;
+  margin-left: 22%;
+}
+
+#admin-update-contact-title {
+  margin-left: 150%;
+  width: 100%; 
+  color: blue;
+  font-size: xx-large;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-top: 2%;
+  text-align: center;
+}
+
+#admin-update-contact-main {
+  margin-left: 140%;
+  width: 200%
+}
+
+#update_contact_btn {
+  width: fit-content;
+  margin-top: 5%;
+  margin-left: 18%;
+}
+
+#admin-update-person-title {
+  margin-left: 150%;
+  width: 100%; 
+  color: blue;
+  font-size: xx-large;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-top: 2%;
+  text-align: center;
+}
+
+#admin-update-person-main{
+  margin-left: 140%;
+  width: 200%
+}
+
+#cust-update-person-title {
+  margin-left: 40%;
+  width: 100%; 
+  color: blue;
+  font-size: xx-large;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-top: 2%;
+  text-align: center;
+}
+
+#cust-update-person-main {
+  margin-left: 10%;
+  width: 200%
+}
+
+#update_cust_person_btn {
+  margin-left: 35%;
+  margin-top: 3%;
+}
+
+/* .row {
+  width: 40%;
+} */
+
+/* #emp_title{
+  margin-top: 5%;
+  margin-left: 38%;
+  width: 30%;
+  color: blue;
+} */
+
+
+
+/* form {
+  width: 700px;
+  margin: 0 auto;
+  margin-left: 40%;
+} */
+/* #cust_login {
+  width: 40%;
+} */
+/* 
+.content {
+  margin-left: 50%;
+} */
+
+
+/* .login {
+  float: right;
+} */
+
+/* .login {
+  border: 1px solid black;
+  padding: 10px;
+  border-spacing: 50%;
+  align-self: center;
+  margin: auto;
+  float:left;
+  width:45%;
+  height:45%;
+} */
+
+/* .left {
+  float: left;
+}
+.right {
+  float: right;
+} */
+
+/* img {
+  float:right !important;
+} */
+
+/* .navbar{
+  float:none !important;
+  display:flex;
+  flex: 1;
+  text-align: center;
+} */
+
+/* body{
+  margin: 0px;
+ } */
+
+ 
+/* nav {
+  background-color: #fff;
+  border: 1px solid #dedede;
+  border-radius: 4px;
+  box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
+  color: #888;
+  display: block;
+  margin: 8px 22px 8px 22px;
+  overflow: hidden;
+  width: 100%; 
+  margin: 0;
+  padding: 0;
+} */
+
