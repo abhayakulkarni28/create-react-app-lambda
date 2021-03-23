@@ -1,7 +1,7 @@
 import axios from "axios";
 import authHeader from "../services/auth-header"
 
- const API_URL = "http://licportal-env.eba-2iauvd5j.us-east-2.elasticbeanstalk.com/";
+ const API_URL = "https://cors-everywhere-me.herokuapp.com/http://licportal-env.eba-9zwc5tbn.us-east-2.elasticbeanstalk.com/";
 
 //const API_URL = "http://localhost:8080/";
 class EmpAuthService {

@@ -3,7 +3,7 @@ import Footer from '../../components/Footer'
 import Navigation from '../../components/Navigation'
 import { Component } from 'react'
 import AdminNavigation from '../../components/AdminComponents/AdminNavigation'
-import admin_profile_img from '../../images/admin-profile.jfif'
+import admin_profile_img from '../../images/admin-profile.jpg'
 
 export default class AdminProfileScreen extends Component {
   render() {
